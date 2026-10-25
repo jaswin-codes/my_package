@@ -8,7 +8,7 @@ Clone it into the `src` folder of a colcon workspace (the package is called `my_
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/jaswin-codes/ros2-first-package.git my_package
+git clone https://github.com/jaswin-codes/my_package.git my_package
 cd ~/ros2_ws
 colcon build --packages-select my_package
 source install/setup.bash
